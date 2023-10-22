@@ -66,7 +66,7 @@ function App() {
             </Route>
           </Switch> */}
           <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About mode={mode}/>} />
           <Route path="/" element={<TextForm heading="Write your thoughts here!" mode={mode} showAlert={showAlert} />} />
         </Routes>
       </div>
